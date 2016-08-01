@@ -1,0 +1,27 @@
+{
+	"name": "manta-finder",
+	"description": "traverse Manta directory trees",
+	"version": "1.0.0",
+	"main": "./lib/manta-find.js",
+
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/joyent/node-manta-finder.git"
+	},
+
+	"dependencies": {
+		"assert-plus": "^1.0.0",
+		"jsprim": "^1.3.0",
+		"lstream": "0.0.4",
+		"verror": "1.6.1",
+		"vstream": "0.1.0",
+		"vstream-json-parser": "^1.0.0"
+	},
+
+	"devDependencies": {
+		"bunyan": "^1.8.1",
+		"manta": "^3.0.0"
+	},
+
+	"license": "MIT"
+}
